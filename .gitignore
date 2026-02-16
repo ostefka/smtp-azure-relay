@@ -1,0 +1,19 @@
+# Build outputs
+**/bin/
+**/obj/
+
+# Azure CLI workspace config
+.azure-cli/
+
+# Deployment state (contains resource names, IPs, principal IDs)
+deploy/deploy-info.json
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
