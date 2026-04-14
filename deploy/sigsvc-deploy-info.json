@@ -1,0 +1,23 @@
+{
+  "ResourceGroup": "ItApp-SignatureService",
+  "Location": "westeurope",
+  "Subscription": "CEE-IT-Infrastructure (f6c1b3db-b3fd-4f9d-9553-aff612cf4a11)",
+  "Tenant": "rockawaytravel.onmicrosoft.com",
+  "AcrName": "InviaItContainerHub",
+  "AcrLoginServer": "inviaitcontainerhub.azurecr.io",
+  "StorageAccount": "sigsvcstore",
+  "FileShare": "sigdata",
+  "Vnet": "sigsvc-vnet",
+  "Subnet": "containerapp-subnet (10.100.0.0/23)",
+  "Environment": "sigsvc-env",
+  "ContainerApp": "sigsvc-app",
+  "Fqdn": "sigsvc-app.thankfulrock-2c049e90.westeurope.azurecontainerapps.io",
+  "StaticIp": "20.73.110.144",
+  "LogWorkspace": "ItApp-SignatureService-LA",
+  "ForwardingHost": "rockawaytravel.mail.protection.outlook.com",
+  "SmtpHostname": "InviaSignature.invia.eu",
+  "MinReplicas": 1,
+  "MaxReplicas": 3,
+  "TlsStatus": "Certificate NOT yet mounted — needs PFX at /app/certs/smtp.pfx",
+  "DeployedAt": "2026-04-12T21:00:00Z"
+}

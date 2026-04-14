@@ -1,0 +1,9 @@
+--
+{{DisplayName}}
+{{Title}} | {{Department}}
+{{Company}}
+{{Email}} | {{Phone}}
+{{Website}}
+
+This email is intended solely for the named recipient(s).
+If you received this in error, please delete it and notify the sender.

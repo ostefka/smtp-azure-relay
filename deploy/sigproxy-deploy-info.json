@@ -1,0 +1,9 @@
+{
+  "AcrLoginServer": "sigproxyacr5048.azurecr.io",
+  "Location": "northeurope",
+  "ForwardingHost": "cdx25-shop.mail.protection.outlook.com",
+  "PublicIp": "40.127.226.29",
+  "ResourceGroup": "rg-sigproxy",
+  "AcrName": "sigproxyacr5048",
+  "ContainerName": "sigproxy-aci"
+}

@@ -4,6 +4,7 @@
 
 # Azure CLI workspace config
 .azure-cli/
+.azure/
 
 # Deployment state (contains resource names, IPs, principal IDs)
 deploy/deploy-info.json
