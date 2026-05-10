@@ -23,7 +23,7 @@ $failed = 0
 
 function Send-RawSmtp {
     param(
-        [string]$Host,
+        [string]$SmtpServer,
         [int]$Port,
         [string]$MailFrom,
         [string[]]$RcptTo,
@@ -31,11 +31,14 @@ function Send-RawSmtp {
     )
 
     $tcp = [System.Net.Sockets.TcpClient]::new()
-    $tcp.Connect($Host, $Port)
+    $tcp.SendTimeout = 15000
+    $tcp.ReceiveTimeout = 15000
+    $tcp.Connect($SmtpServer, $Port)
     $stream = $tcp.GetStream()
     $reader = [System.IO.StreamReader]::new($stream)
     $writer = [System.IO.StreamWriter]::new($stream)
     $writer.AutoFlush = $true
+    $writer.NewLine = "`r`n"
 
     $banner = $reader.ReadLine()
 
@@ -56,8 +59,13 @@ function Send-RawSmtp {
     $response = $reader.ReadLine()
     if ($response -notmatch "^354") { throw "DATA failed: $response" }
 
-    $writer.Write($Data)
-    $writer.WriteLine(".")
+    # Normalize line endings to CRLF for SMTP protocol
+    $normalizedData = $Data -replace "`r`n", "`n" -replace "`n", "`r`n"
+    $writer.Write($normalizedData)
+    if (-not $normalizedData.EndsWith("`r`n")) {
+        $writer.Write("`r`n")
+    }
+    $writer.Write(".`r`n")
     $response = $reader.ReadLine()
 
     $writer.WriteLine("QUIT")
@@ -76,7 +84,7 @@ function Run-Test {
 
     Write-Host "`n--- Test: $Name ---" -ForegroundColor Cyan
     try {
-        $response = Send-RawSmtp -Host $SmtpHost -Port $SmtpPort `
+        $response = Send-RawSmtp -SmtpServer $SmtpHost -Port $SmtpPort `
             -MailFrom $From -RcptTo @($To) -Data $MessageData
 
         if ($response -match "^$ExpectedResponsePrefix") {
