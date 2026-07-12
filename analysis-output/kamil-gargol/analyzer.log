@@ -1,0 +1,15 @@
+[2026-05-10 17:08:51 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 17:08:51 INF] Target: kamil.gargol@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 17:08:51 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 17:08:51 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 17:08:51 INF] Total templates loaded: 1
+[2026-05-10 17:08:51 INF] Scanning folder: SentItems
+[2026-05-10 17:08:52 INF] Scanning folder SentItems (id=AQMkAGY1MWEwMmEwLTBlNjktNGI5My04NGJjLTI2NGY2YThhZDFkMQAuAAADn-iIfGIZV0aavgl2AiXIEgEAwJKUElWyq0W1FgRjXhBTWgAAAgEJAAAA) for kamil.gargol@invia.com
+[2026-05-10 17:09:12 INF] Progress: 100 scanned, 40 unique patterns, 60 duplicates
+[2026-05-10 17:09:39 INF] Progress: 200 scanned, 59 unique patterns, 141 duplicates
+[2026-05-10 17:09:54 INF] Progress: 300 scanned, 71 unique patterns, 229 duplicates
+[2026-05-10 17:10:15 INF] Progress: 400 scanned, 86 unique patterns, 314 duplicates
+[2026-05-10 17:10:34 INF] Progress: 500 scanned, 96 unique patterns, 404 duplicates
+[2026-05-10 17:10:53 INF] Progress: 600 scanned, 110 unique patterns, 490 duplicates
+[2026-05-10 17:11:09 INF] Progress: 700 scanned, 120 unique patterns, 580 duplicates
+[2026-05-10 17:11:26 INF] Progress: 800 scanned, 132 unique patterns, 668 duplicates

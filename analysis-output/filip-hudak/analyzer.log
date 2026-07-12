@@ -1,0 +1,28 @@
+[2026-05-10 16:56:15 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 16:56:15 INF] Target: filip.hudak@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 16:56:15 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 16:56:15 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 16:56:15 INF] Total templates loaded: 1
+[2026-05-10 16:56:15 INF] Scanning folder: SentItems
+[2026-05-10 16:56:16 INF] Scanning folder SentItems (id=AAMkADg1ZjMzNTk2LWRkZjItNDg3ZS05YWY1LWJiMmY3M2YzMGY3OQAuAAAAAAAtCa8v4W2VRaxFZQXGcUzzAQApmQQOexJvQKpmZB6bE1h6AAAAAAEJAAA=) for filip.hudak@invia.com
+[2026-05-10 16:56:30 INF] Progress: 100 scanned, 10 unique patterns, 90 duplicates
+[2026-05-10 16:56:47 INF] Progress: 200 scanned, 19 unique patterns, 181 duplicates
+[2026-05-10 16:57:12 INF] Progress: 300 scanned, 39 unique patterns, 261 duplicates
+[2026-05-10 16:57:38 INF] Progress: 400 scanned, 48 unique patterns, 352 duplicates
+[2026-05-10 16:58:16 INF] Progress: 500 scanned, 54 unique patterns, 446 duplicates
+[2026-05-10 16:58:33 INF] Progress: 600 scanned, 65 unique patterns, 535 duplicates
+[2026-05-10 16:58:52 INF] Progress: 700 scanned, 87 unique patterns, 613 duplicates
+[2026-05-10 16:59:16 INF] Progress: 800 scanned, 108 unique patterns, 692 duplicates
+[2026-05-10 16:59:32 INF] Progress: 900 scanned, 136 unique patterns, 764 duplicates
+[2026-05-10 16:59:47 INF] Progress: 1000 scanned, 157 unique patterns, 843 duplicates
+[2026-05-10 16:59:47 INF] Scan complete: 1000 messages, 157 unique patterns, 843 duplicates, 0 encrypted
+[2026-05-10 16:59:47 INF] Scanning folder: Inbox
+[2026-05-10 16:59:47 INF] Scanning folder Inbox (id=AAMkADg1ZjMzNTk2LWRkZjItNDg3ZS05YWY1LWJiMmY3M2YzMGY3OQAuAAAAAAAtCa8v4W2VRaxFZQXGcUzzAQApmQQOexJvQKpmZB6bE1h6AAAAAAEMAAA=) for filip.hudak@invia.com
+[2026-05-10 16:59:47 INF] Generating analysis report...
+[2026-05-10 16:59:55 INF] Analysis complete:
+[2026-05-10 16:59:55 INF]   Scanned: 1000 messages
+[2026-05-10 16:59:55 INF]   Unique patterns: 157
+[2026-05-10 16:59:55 INF]   Injection pass rate: 100.0%
+[2026-05-10 16:59:55 INF]   Failed patterns: 0
+[2026-05-10 16:59:55 INF]   Undetected boundaries: 8
+[2026-05-10 16:59:55 INF]   Report: /app/output/filip-hudak/report.md

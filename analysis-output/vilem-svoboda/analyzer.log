@@ -1,0 +1,28 @@
+[2026-05-10 16:52:55 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 16:52:55 INF] Target: vilem.svoboda@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 16:52:55 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 16:52:55 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 16:52:55 INF] Total templates loaded: 1
+[2026-05-10 16:52:55 INF] Scanning folder: SentItems
+[2026-05-10 16:52:56 INF] Scanning folder SentItems (id=AAMkAGEyODBlMzZhLTVkNjUtNGRiNC04ZGNlLTU4ZjY2MTNkNjRhNwAuAAAAAADgRl8mcwfJTrhbpSIBbMRNAQBlz7KgVYZ8RpdWj5QKzMHhAAAAA83RAAA=) for vilem.svoboda@invia.com
+[2026-05-10 16:53:27 INF] Progress: 100 scanned, 52 unique patterns, 48 duplicates
+[2026-05-10 16:53:57 INF] Progress: 200 scanned, 84 unique patterns, 116 duplicates
+[2026-05-10 16:54:15 INF] Progress: 300 scanned, 97 unique patterns, 203 duplicates
+[2026-05-10 16:54:35 INF] Progress: 400 scanned, 111 unique patterns, 289 duplicates
+[2026-05-10 16:54:51 INF] Progress: 500 scanned, 126 unique patterns, 374 duplicates
+[2026-05-10 16:55:04 INF] Progress: 600 scanned, 138 unique patterns, 462 duplicates
+[2026-05-10 16:55:18 INF] Progress: 700 scanned, 154 unique patterns, 546 duplicates
+[2026-05-10 16:55:33 INF] Progress: 800 scanned, 173 unique patterns, 627 duplicates
+[2026-05-10 16:55:45 INF] Progress: 900 scanned, 182 unique patterns, 718 duplicates
+[2026-05-10 16:56:04 INF] Progress: 1000 scanned, 198 unique patterns, 802 duplicates
+[2026-05-10 16:56:04 INF] Scan complete: 1000 messages, 198 unique patterns, 802 duplicates, 0 encrypted
+[2026-05-10 16:56:04 INF] Scanning folder: Inbox
+[2026-05-10 16:56:04 INF] Scanning folder Inbox (id=AAMkAGEyODBlMzZhLTVkNjUtNGRiNC04ZGNlLTU4ZjY2MTNkNjRhNwAuAAAAAADgRl8mcwfJTrhbpSIBbMRNAQBlz7KgVYZ8RpdWj5QKzMHhAAAAA83PAAA=) for vilem.svoboda@invia.com
+[2026-05-10 16:56:04 INF] Generating analysis report...
+[2026-05-10 16:56:15 INF] Analysis complete:
+[2026-05-10 16:56:15 INF]   Scanned: 1000 messages
+[2026-05-10 16:56:15 INF]   Unique patterns: 198
+[2026-05-10 16:56:15 INF]   Injection pass rate: 100.0%
+[2026-05-10 16:56:15 INF]   Failed patterns: 0
+[2026-05-10 16:56:15 INF]   Undetected boundaries: 5
+[2026-05-10 16:56:15 INF]   Report: /app/output/vilem-svoboda/report.md

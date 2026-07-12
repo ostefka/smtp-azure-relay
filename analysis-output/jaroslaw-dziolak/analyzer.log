@@ -1,0 +1,28 @@
+[2026-05-10 17:02:36 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 17:02:36 INF] Target: jaroslaw.dziolak@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 17:02:36 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 17:02:36 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 17:02:36 INF] Total templates loaded: 1
+[2026-05-10 17:02:36 INF] Scanning folder: SentItems
+[2026-05-10 17:02:38 INF] Scanning folder SentItems (id=AQMkADNmYzBlNDVlLThmOWItNGJkMi1iNjU2LTJmMmFmMTEAZTg2MDMALgAAA3Ctv-Ythi9Ap0aGxkf5_FABAPMNBjxen8xFnHbR0z8Pv-sAAAIBCQAAAA==) for jaroslaw.dziolak@invia.com
+[2026-05-10 17:02:53 INF] Progress: 100 scanned, 42 unique patterns, 58 duplicates
+[2026-05-10 17:03:08 INF] Progress: 200 scanned, 72 unique patterns, 128 duplicates
+[2026-05-10 17:03:18 INF] Progress: 300 scanned, 84 unique patterns, 216 duplicates
+[2026-05-10 17:03:30 INF] Progress: 400 scanned, 107 unique patterns, 293 duplicates
+[2026-05-10 17:03:46 INF] Progress: 500 scanned, 135 unique patterns, 365 duplicates
+[2026-05-10 17:04:00 INF] Progress: 600 scanned, 156 unique patterns, 444 duplicates
+[2026-05-10 17:04:14 INF] Progress: 700 scanned, 182 unique patterns, 518 duplicates
+[2026-05-10 17:04:39 INF] Progress: 800 scanned, 214 unique patterns, 586 duplicates
+[2026-05-10 17:04:52 INF] Progress: 900 scanned, 236 unique patterns, 664 duplicates
+[2026-05-10 17:05:11 INF] Progress: 1000 scanned, 262 unique patterns, 738 duplicates
+[2026-05-10 17:05:11 INF] Scan complete: 1000 messages, 262 unique patterns, 738 duplicates, 0 encrypted
+[2026-05-10 17:05:11 INF] Scanning folder: Inbox
+[2026-05-10 17:05:11 INF] Scanning folder Inbox (id=AQMkADNmYzBlNDVlLThmOWItNGJkMi1iNjU2LTJmMmFmMTEAZTg2MDMALgAAA3Ctv-Ythi9Ap0aGxkf5_FABAPMNBjxen8xFnHbR0z8Pv-sAAAIBDAAAAA==) for jaroslaw.dziolak@invia.com
+[2026-05-10 17:05:24 INF] Generating analysis report...
+[2026-05-10 17:05:38 INF] Analysis complete:
+[2026-05-10 17:05:38 INF]   Scanned: 1000 messages
+[2026-05-10 17:05:38 INF]   Unique patterns: 262
+[2026-05-10 17:05:38 INF]   Injection pass rate: 100.0%
+[2026-05-10 17:05:38 INF]   Failed patterns: 0
+[2026-05-10 17:05:38 INF]   Undetected boundaries: 27
+[2026-05-10 17:05:38 INF]   Report: /app/output/jaroslaw-dziolak/report.md

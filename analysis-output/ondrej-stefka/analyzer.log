@@ -1,0 +1,28 @@
+[2026-05-10 16:49:36 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 16:49:36 INF] Target: ondrej.stefka@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 16:49:37 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 16:49:37 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 16:49:37 INF] Total templates loaded: 1
+[2026-05-10 16:49:37 INF] Scanning folder: SentItems
+[2026-05-10 16:49:38 INF] Scanning folder SentItems (id=AAMkAGJkY2UxOTg3LWVlNTgtNGI3Yi05NjAwLTJkZmI4MDQ5ODI3MQAuAAAAAAB1-iTHYuKSToA_n1YPdwxxAQBy6HEOSX_uTZxvxQyha7YzAAAAAAEKAAA=) for ondrej.stefka@invia.com
+[2026-05-10 16:49:46 INF] Progress: 100 scanned, 5 unique patterns, 95 duplicates
+[2026-05-10 16:50:08 INF] Progress: 200 scanned, 8 unique patterns, 192 duplicates
+[2026-05-10 16:50:16 INF] Progress: 300 scanned, 26 unique patterns, 274 duplicates
+[2026-05-10 16:50:22 INF] Progress: 400 scanned, 34 unique patterns, 366 duplicates
+[2026-05-10 16:50:27 INF] Progress: 500 scanned, 41 unique patterns, 459 duplicates
+[2026-05-10 16:50:33 INF] Progress: 600 scanned, 50 unique patterns, 550 duplicates
+[2026-05-10 16:50:43 INF] Progress: 700 scanned, 76 unique patterns, 624 duplicates
+[2026-05-10 16:50:54 INF] Progress: 800 scanned, 107 unique patterns, 693 duplicates
+[2026-05-10 16:51:06 INF] Progress: 900 scanned, 129 unique patterns, 771 duplicates
+[2026-05-10 16:51:10 INF] Scan complete: 955 messages, 138 unique patterns, 817 duplicates, 0 encrypted
+[2026-05-10 16:51:10 INF] Scanning folder: Inbox
+[2026-05-10 16:51:10 INF] Scanning folder Inbox (id=AAMkAGJkY2UxOTg3LWVlNTgtNGI3Yi05NjAwLTJkZmI4MDQ5ODI3MQAuAAAAAAB1-iTHYuKSToA_n1YPdwxxAQBy6HEOSX_uTZxvxQyha7YzAAAAAAENAAA=) for ondrej.stefka@invia.com
+[2026-05-10 16:51:12 INF] Progress: 1000 scanned, 146 unique patterns, 854 duplicates
+[2026-05-10 16:51:12 INF] Generating analysis report...
+[2026-05-10 16:51:19 INF] Analysis complete:
+[2026-05-10 16:51:19 INF]   Scanned: 1000 messages
+[2026-05-10 16:51:19 INF]   Unique patterns: 146
+[2026-05-10 16:51:19 INF]   Injection pass rate: 100.0%
+[2026-05-10 16:51:19 INF]   Failed patterns: 0
+[2026-05-10 16:51:19 INF]   Undetected boundaries: 9
+[2026-05-10 16:51:19 INF]   Report: /app/output/ondrej-stefka/report.md

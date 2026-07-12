@@ -1,0 +1,28 @@
+[2026-05-10 17:20:04 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 17:20:04 INF] Target: david.kovarik@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 17:20:04 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 17:20:04 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 17:20:04 INF] Total templates loaded: 1
+[2026-05-10 17:20:04 INF] Scanning folder: SentItems
+[2026-05-10 17:20:06 INF] Scanning folder SentItems (id=AAMkADg1YTgzYWU2LTViNGYtNGJiZC04OTQyLWE2NDQ2OGNlY2RmOQAuAAAAAAA7vH8bcjeYQ5LAfQw7c602AQA3xZNH9sszRLEo0UqotQkyAAAAAAEJAAA=) for david.kovarik@invia.com
+[2026-05-10 17:20:27 INF] Progress: 100 scanned, 36 unique patterns, 64 duplicates
+[2026-05-10 17:20:42 INF] Progress: 200 scanned, 58 unique patterns, 142 duplicates
+[2026-05-10 17:21:00 INF] Progress: 300 scanned, 76 unique patterns, 224 duplicates
+[2026-05-10 17:21:13 INF] Progress: 400 scanned, 93 unique patterns, 307 duplicates
+[2026-05-10 17:21:27 INF] Progress: 500 scanned, 110 unique patterns, 390 duplicates
+[2026-05-10 17:21:32 INF] Scan complete: 546 messages, 114 unique patterns, 432 duplicates, 0 encrypted
+[2026-05-10 17:21:32 INF] Scanning folder: Inbox
+[2026-05-10 17:21:32 INF] Scanning folder Inbox (id=AAMkADg1YTgzYWU2LTViNGYtNGJiZC04OTQyLWE2NDQ2OGNlY2RmOQAuAAAAAAA7vH8bcjeYQ5LAfQw7c602AQA3xZNH9sszRLEo0UqotQkyAAAAAAEMAAA=) for david.kovarik@invia.com
+[2026-05-10 17:21:38 INF] Progress: 600 scanned, 123 unique patterns, 477 duplicates
+[2026-05-10 17:21:47 INF] Progress: 700 scanned, 133 unique patterns, 567 duplicates
+[2026-05-10 17:21:55 INF] Progress: 800 scanned, 133 unique patterns, 667 duplicates
+[2026-05-10 17:22:03 INF] Progress: 900 scanned, 133 unique patterns, 767 duplicates
+[2026-05-10 17:22:12 INF] Progress: 1000 scanned, 134 unique patterns, 866 duplicates
+[2026-05-10 17:22:12 INF] Generating analysis report...
+[2026-05-10 17:22:25 INF] Analysis complete:
+[2026-05-10 17:22:25 INF]   Scanned: 1000 messages
+[2026-05-10 17:22:25 INF]   Unique patterns: 134
+[2026-05-10 17:22:25 INF]   Injection pass rate: 100.0%
+[2026-05-10 17:22:25 INF]   Failed patterns: 0
+[2026-05-10 17:22:25 INF]   Undetected boundaries: 5
+[2026-05-10 17:22:25 INF]   Report: /app/output/david-kovarik/report.md

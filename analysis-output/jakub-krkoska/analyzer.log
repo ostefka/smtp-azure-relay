@@ -1,0 +1,28 @@
+[2026-05-10 17:34:39 INF] SignatureAnalyzer starting — READ-ONLY mode, no email sending capability
+[2026-05-10 17:34:39 INF] Target: jakub.krkoska@invia.com, Folders: SentItems,Inbox, Max: 1000
+[2026-05-10 17:34:39 INF] Rule evaluator loaded 0 active rules
+[2026-05-10 17:34:39 INF] Loaded file template: default from /app/templates/default.html
+[2026-05-10 17:34:39 INF] Total templates loaded: 1
+[2026-05-10 17:34:39 INF] Scanning folder: SentItems
+[2026-05-10 17:34:40 INF] Scanning folder SentItems (id=AQMkAGZiODQzODRiLTU4YTEtNDg5Zi04MmU3LTkwODgANWE5NzY3YmMALgAAA4MTa7wJcr5Dv00grszFd-UBAHs_i3TDgf9Ig4kF47PknCQAAAIBCQAAAA==) for jakub.krkoska@invia.com
+[2026-05-10 17:34:53 INF] Scan complete: 96 messages, 16 unique patterns, 80 duplicates, 0 encrypted
+[2026-05-10 17:34:53 INF] Scanning folder: Inbox
+[2026-05-10 17:34:53 INF] Scanning folder Inbox (id=AQMkAGZiODQzODRiLTU4YTEtNDg5Zi04MmU3LTkwODgANWE5NzY3YmMALgAAA4MTa7wJcr5Dv00grszFd-UBAHs_i3TDgf9Ig4kF47PknCQAAAIBDAAAAA==) for jakub.krkoska@invia.com
+[2026-05-10 17:34:55 INF] Progress: 100 scanned, 18 unique patterns, 82 duplicates
+[2026-05-10 17:35:08 INF] Progress: 200 scanned, 30 unique patterns, 170 duplicates
+[2026-05-10 17:35:16 INF] Progress: 300 scanned, 34 unique patterns, 266 duplicates
+[2026-05-10 17:35:23 INF] Progress: 400 scanned, 37 unique patterns, 363 duplicates
+[2026-05-10 17:35:32 INF] Progress: 500 scanned, 41 unique patterns, 459 duplicates
+[2026-05-10 17:35:40 INF] Progress: 600 scanned, 50 unique patterns, 550 duplicates
+[2026-05-10 17:35:49 INF] Progress: 700 scanned, 58 unique patterns, 642 duplicates
+[2026-05-10 17:35:57 INF] Progress: 800 scanned, 61 unique patterns, 739 duplicates
+[2026-05-10 17:36:03 INF] Progress: 900 scanned, 67 unique patterns, 833 duplicates
+[2026-05-10 17:36:10 INF] Progress: 1000 scanned, 69 unique patterns, 931 duplicates
+[2026-05-10 17:36:10 INF] Generating analysis report...
+[2026-05-10 17:36:13 INF] Analysis complete:
+[2026-05-10 17:36:13 INF]   Scanned: 1000 messages
+[2026-05-10 17:36:13 INF]   Unique patterns: 69
+[2026-05-10 17:36:13 INF]   Injection pass rate: 100.0%
+[2026-05-10 17:36:13 INF]   Failed patterns: 0
+[2026-05-10 17:36:13 INF]   Undetected boundaries: 19
+[2026-05-10 17:36:13 INF]   Report: /app/output/jakub-krkoska/report.md
